@@ -1,9 +1,9 @@
 {
-    "family": "first-run-task-definition",
+    "family": "jenkinstest1",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
-            "name": "sample-app",
+            "name": "jenkinstest1",
             "image": "{{image}}",
             "portMappings": [
                 {
